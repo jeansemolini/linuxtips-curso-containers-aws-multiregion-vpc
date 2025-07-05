@@ -1,0 +1,27 @@
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Diretório de cache do Terraform
+.terraform/
+
+# Override de variáveis
+# terraform.tfvars
+# terraform.tfvars.json
+
+# Arquivos de lock (dependência local)
+.terraform.lock.hcl
+
+# Arquivos de log e saída
+crash.log
+*.log
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs comuns
+.vscode/
+.idea/
+*.iml
